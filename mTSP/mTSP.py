@@ -122,8 +122,7 @@ def vehicle_and_distance(dic, matrix, service_dict):
 
     Parameters
     ----------
-    dic : TYPE
-        DESCRIPTION.
+    dic : Dictionary
     matrix : 2d array
     service_dict : Dictionary
 
