@@ -223,4 +223,6 @@ def final_dict(result_dict):
 filename = 'input.json'
 
 result = run_all_possible(filename)
+with open("output.json", "w") as outfile:
+    json.dump(result, outfile)
 print(result)
